@@ -1,0 +1,14 @@
+#!/bin/sh
+## rendu.sh for rendu in /home/winerz_k/rendu/tmp/Piscine_C_J06
+## 
+## Made by Khram Winerz
+## Login   <winerz_k@epitech.net>
+## 
+## Started on  Tue Oct  7 22:37:37 2014 Khram Winerz
+## Last update Wed Oct  8 21:46:41 2014 Khram Winerz
+##
+
+find ./ -name "*[~|#]" -type f -delete
+git add *
+git commit -m "message $1"
+git push origin master

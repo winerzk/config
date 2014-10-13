@@ -1,0 +1,20 @@
+#!/bin/sh
+## mkproject.sh for mkproject in /home/winerz_k/rendu/Piscine_C_J07
+## 
+## Made by Khram Winerz
+## Login   <winerz_k@epitech.net>
+## 
+## Started on  Wed Oct  8 22:33:11 2014 Khram Winerz
+## Last update Wed Oct  8 23:02:10 2014 Khram Winerz
+##
+
+~/bin/repo $1 &&
+~/bin/clone $1 &&
+cd $1 &&
+mkdir ./lib &&
+mkdir ./lib/my &&
+cp ~/lib/*.a ./lib/my/ &&
+mkdir ./include/ &&
+cp ~/include/*.h ./include/ &&
+~/bin/rendu
+

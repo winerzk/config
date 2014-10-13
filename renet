@@ -1,0 +1,14 @@
+#!/bin/sh
+## renet.sh for renet in /usr/ports/games
+## 
+## Made by Khram Winerz
+## Login   <winerz_k@epitech.net>
+## 
+## Started on  Sat Oct 11 13:35:03 2014 Khram Winerz
+## Last update Sat Oct 11 13:54:24 2014 Khram Winerz
+##
+
+sudo ifconfig wlan0 down
+sudo /etc/rc.d/netif restart &&
+sudo /etc/rc.d/routing restart
+sudo ifconfig wlan0 up

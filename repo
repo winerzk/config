@@ -1,0 +1,13 @@
+#!/bin/sh
+## repo.sh for repo in /home/winerz_k/projects
+## 
+## Made by Khram Winerz
+## Login   <winerz_k@epitech.net>
+## 
+## Started on  Wed Oct  8 02:56:56 2014 Khram Winerz
+## Last update Wed Oct  8 02:57:55 2014 Khram Winerz
+##
+
+blih -u favare_a repository create $1
+blih -u favare_a repository setacl $1 ramassage-tek r
+blih -u favare_a repository getacl $1

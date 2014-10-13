@@ -1,0 +1,18 @@
+#!/bin/sh
+## moulinette.sh for moulinette in /home/winerz_k/rendu/Piscine_C_J08/ex_01
+## 
+## Made by Khram Winerz
+## Login   <winerz_k@epitech.net>
+## 
+## Started on  Wed Oct  8 22:56:26 2014 Khram Winerz
+## Last update Thu Oct  9 03:16:18 2014 Khram Winerz
+##
+
+if [ $1 = "-nop" ] && [ -n "$2" ]
+then
+    cc *.c -I../include/ -L../lib/my/ -o $2 -lmy -g -Weverything -Werror
+else
+    cc *.c -I../include/ -L../lib/my/ -o test -lmy -g -Weverything -Werror &&
+    valgrind ./test &&
+    rm test
+fi

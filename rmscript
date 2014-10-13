@@ -1,0 +1,12 @@
+#!/bin/sh
+## rmscript.sh for rmscript in /home/winerz_k/rendu
+## 
+## Made by Khram Winerz
+## Login   <winerz_k@epitech.net>
+## 
+## Started on  Wed Oct  8 21:22:20 2014 Khram Winerz
+## Last update Wed Oct  8 21:22:47 2014 Khram Winerz
+##
+
+rm -f ~/bin/$1.sh
+rm -f ~/bin/$1

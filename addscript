@@ -1,0 +1,13 @@
+#!/bin/sh
+## addscript.sh for addscript in /home/winerz_k/rendu
+## 
+## Made by Khram Winerz
+## Login   <winerz_k@epitech.net>
+## 
+## Started on  Wed Oct  8 21:20:42 2014 Khram Winerz
+## Last update Wed Oct  8 21:22:12 2014 Khram Winerz
+##
+
+emacs -nw ~/bin/$1.sh
+chmod 777 ~/bin/$1.sh
+mv ~/bin/$1.sh ~/bin/$1

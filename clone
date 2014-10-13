@@ -1,0 +1,11 @@
+#!/bin/sh
+## clone.sh for clone in /home/winerz_k/rendu/tmp
+## 
+## Made by Khram Winerz
+## Login   <winerz_k@epitech.net>
+## 
+## Started on  Wed Oct  8 00:24:39 2014 Khram Winerz
+## Last update Wed Oct  8 00:24:55 2014 Khram Winerz
+##
+
+git clone favare_a@git.epitech.eu:/favare_a/$1
